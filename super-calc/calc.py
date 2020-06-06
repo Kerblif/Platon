@@ -14,5 +14,7 @@ elif oper == "/":
     res = a / b
 elif oper == "$":
     res = (a + b) ** 2
+elif oper == "=":
+    res = a * b - a - b
 str = str(a) + " " + oper + " " + str(b) + " = " + str(res)
 print(str)
